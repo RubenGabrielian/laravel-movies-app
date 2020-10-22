@@ -2,7 +2,7 @@
     <input
             wire:model="search"
             type="text"
-            class="bg-green -800 rounded-full w-64  pl-8 px-4 py-1 focus:outline-none focus:shadow-outline text-sm"
+            class="text-gray-800  rounded-full w-64  pl-8 px-4 py-1 focus:outline-none focus:shadow-outline text-sm"
             placeholder="Search">
     <div class="absolute top-0">
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search ml-2 mt-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

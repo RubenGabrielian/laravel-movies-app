@@ -15,15 +15,7 @@ class MoviesController extends Controller
     public function index()
     {
 
-        function changeValue ($y) {
-            $y = $y + 5;
-        }
 
-        $myNumber = 8;
-
-        changeValye(8);
-
-        die();
 
         $popularMovies = Http::get
         ('https://api.themoviedb.org/3/movie/popular?api_key=7d768124f4ce143511f3211c6fa9393a&language=en-US&page=1')
